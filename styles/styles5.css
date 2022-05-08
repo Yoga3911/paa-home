@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  height: 97.5vh;
+  padding-top: 10vh;
+  position: absolute !important;
+}
+
+nav.navbar {
+  transition: 0.3s;
+}
+
+nav.hideNav {
+  position: fixed;
+  top: 30px;
+  left: 40px;
+  width: calc(100% - 80px);
+  height: 60px;
+  background-color: white !important;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  align-items: center;
+  transition: 0.3s;
+  padding: 20px 30px;
+  z-index: 3;
+}
+
+nav > div.container-fluid a > span.lead {
+  color: white;
+}
+nav.hideNav > div.container-fluid a > span.lead {
+  color: #323949;
+}
+
+nav.hideNav .box-section-filled {
+  background-color: #152647;
+}
+
+.box-section-filled {
+  padding: 0.25em 1.25em;
+  margin: 0;
+  border-radius: 0.5em;
+}
+
+.title2 form.hideSearch {
+  display: none;
+}
+
+.hideSection {
+  display: none !important;
+}
+
+#box-section-no-filled > a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-size: 1.25em;
+}
+
+.section-no-filled:nth-child(1) {
+  border-bottom: 3px solid #059be5;
+  margin-bottom: -15px;
+}
+
+#menu-container {
+  width: calc(100% - 30%);
+  height: 6.5em;
+  background-color: white;
+  position: absolute;
+  top: 78vh;
+  left: 15%;
+  border-radius: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.navigate {
+  width: 5%;
+  height: 50px;
+  background-color: #f9f9f9;
+  margin: 0 0.1em;
+}
+
+.navigate > img {
+  margin: 8px 10%;
+}
+
+#menu-container > .menu-box {
+  width: 6%;
+  height: 80%;
+  margin: 0 1em;
+  align-items: center;
+}
+
+#menu-container > div.menu-box > div.icon,
+#menu-container > div.menu-box > div.menu-title {
+  display: flex;
+  justify-content: center;
+}
+
+#menu-container > div.menu-box > div.icon {
+  background-color: #152647;
+  height: 56px;
+  border-radius: 5px;
+}
+
+#menu-container > div.menu-box > div.icon > img {
+  margin: 6px 0;
+}
+
+#menu-container > div.menu-box > div.menu-title > small {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search-menu {
+  width: 30%;
+  height: 40px;
+  margin-left: 1em;
+  align-items: center !important;
+  justify-content: center !important;
+  /* background-color: green; */
+}
+
+#search-menu {
+  border: 3px solid #152647;
+  border-radius: 8px;
+}
+
+div.container-fluid > div.mycontainer > div.container#main-content {
+  width: calc(100% - 20%);
+  position: absolute;
+  top: 105vh;
+  left: 10%;
+}

@@ -1,200 +1,197 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    overflow-x: hidden;
-}
-
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
+  overflow-x: hidden;
 }
 
 .logo {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 22px;
 }
 
 .navbar {
-    background-color: #152647 !important
+  background-color: #152647 !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .mycontainer {
-    width: 95vw;
-    margin: auto;
+  width: 95vw;
+  margin: auto;
 }
 
 .banner {
-    background-color: #F9F9F9;
-    height: 70vh;
+  background-color: #f9f9f9;
+  height: 70vh;
 }
 
 #banner1-position {
-    position: relative;
-    top: 10vh;
+  position: relative;
+  top: 10vh;
 }
 
 #banner2-position {
-    position: relative;
+  position: relative;
 }
 
 .text-banner {
-    top: 10vh;
-    left: 3vw;
-    position: relative;
+  top: 10vh;
+  left: 3vw;
+  position: relative;
 }
 
 #banner-title {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 #banner-slogan {
-    color: #24A8E8;
-    font-weight: 900;
-    font-size: 30px;
+  color: #24a8e8;
+  font-weight: 900;
+  font-size: 30px;
 }
 
 #banner-description {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .filter {
-    background-color: #F9F9F9;
-    height: 100vh;
+  background-color: #f9f9f9;
+  height: 100vh;
 }
 
 .items {
-    height: 100vh;
+  height: 100vh;
 }
 
 .items-data {
-    background-color: transparent;
-    height: 220vh;
+  background-color: transparent;
+  height: 220vh;
 }
 
 .items-category {
-    background-color: #F9F9F9;
-    height: 10vh;
-    margin-bottom: 2vh;
+  background-color: #f9f9f9;
+  height: 10vh;
+  margin-bottom: 2vh;
 }
 
 .box {
-    background-color: #ececec;
-    border-radius: 5px;
+  background-color: #ececec;
+  border-radius: 5px;
 }
 
 .p1 {
-    color: black;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-decoration: none;
-    font-size: 20px;
+  color: black;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .p2 {
-    color: black;
-    padding-left: 70px;
-    text-decoration: none;
-    font-size: 20px;
+  color: black;
+  padding-left: 70px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .p3 {
-    font-size: 4.5vh;
-    background-color: rgb(212, 212, 212);
+  font-size: 4.5vh;
+  background-color: rgb(212, 212, 212);
 }
 
 .p4 {
-    font-size: 4.5vh;
-    background-color: rgb(170, 170, 170);
+  font-size: 4.5vh;
+  background-color: rgb(170, 170, 170);
 }
 
 #filter-text {
-    font-weight: 900;
-    font-size: 24px;
+  font-weight: 900;
+  font-size: 24px;
 }
 
 .filter-items {
-    border-bottom: 1px;
-    border-bottom-color: grey;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-style: solid;
+  border-bottom: 1px;
+  border-bottom-color: grey;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
 }
 
 .filter-item-text {
-    font-size: 18px;
-    font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /* ====  CARD ==== */
 .card {
-    border-radius: 10px;
-    box-shadow: 0 2px 0 0 #c1c1c1;
+  border-radius: 10px;
+  box-shadow: 0 2px 0 0 #c1c1c1;
 }
 
 .card-title {
-    text-align: left;
+  text-align: left;
 }
 
 .card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .discount {
-    background-color: red;
-    border-radius: 20px;
-    font-size: 10px;
-    width: 40px;
-    text-align: center;
-    margin: none;
-    padding: none;
-    margin-right: 5px;
-    color: white;
-    font-weight: bold;
+  background-color: red;
+  border-radius: 20px;
+  font-size: 10px;
+  width: 40px;
+  text-align: center;
+  margin: none;
+  padding: none;
+  margin-right: 5px;
+  color: white;
+  font-weight: bold;
 }
 
 .kota {
-    font-size: 10px;
-    color: #c0c0c0;
-    text-align: justify;
-    align-items: center;
+  font-size: 10px;
+  color: #c0c0c0;
+  text-align: justify;
+  align-items: center;
 }
 
 .real-price {
-    font-size: 10px;
-    color: red;
-    text-decoration: line-through;
-    text-align: justify;
-    align-items: center;
+  font-size: 10px;
+  color: red;
+  text-decoration: line-through;
+  text-align: justify;
+  align-items: center;
 }
 
 .maps {
-    width: 12%;
-    height: 12%;
-    object-fit: cover;
-    border-radius: 80px;
+  width: 12%;
+  height: 12%;
+  object-fit: cover;
+  border-radius: 80px;
 }
 
 .love {
-    width: 12%;
-    height: 12%;
-    object-fit: cover;
+  width: 12%;
+  height: 12%;
+  object-fit: cover;
 }
 
 .coba {
-    height: 8px;
+  height: 8px;
 }
 
 .price {
-    font-size: 14px;
+  font-size: 14px;
 }
